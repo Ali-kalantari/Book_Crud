@@ -1,0 +1,86 @@
+{
+  "notes": [
+    {
+      "title": "Yoshi's birthday bash",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "category": "reminders",
+      "id": 1
+    },
+    {
+      "title": "Complete my ninja training",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.",
+      "category": "work",
+      "id": 2
+    },
+    {
+      "title": "Order a pizza!",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "category": "todos",
+      "id": 3
+    }
+  ],
+  "books": [
+    {
+      "id": 101,
+      "name": "harry potter",
+      "author": "J.K rowling",
+      "descreption": "some descreption about Glear Folatir Grargruc book",
+      "topic": "Love"
+    },
+    {
+      "id": 102,
+      "name": "spider man",
+      "author": "sam remi",
+      "descreption": "this book is about pitter parker who have some ability of a spider",
+      "topic": "high fantasy"
+    },
+    {
+      "id": 103,
+      "name": "The Lord of the Rings",
+      "author": " J. R. R. Tolkien",
+      "descreption": "Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling books ever written, with over 150 million copies sold",
+      "topic": "high fantasy"
+    },
+    {
+      "id": 104,
+      "name": "The Catcher in the Rye",
+      "author": " J. D. Salinger",
+      "descreption": "this book published in serial form in 1945–1946 and as a novel in 1951.",
+      "topic": "Love"
+    },
+    {
+      "name": "kind bear",
+      "author": "sasan amini",
+      "descreption": "this is a book for kids",
+      "topic": "a topic",
+      "id": 105
+    }
+    
+  ],
+  "users": [
+    {
+      "id": 6501,
+      "name": "Ali kalan",
+      "username": "ali23657",
+      "email": "dr_alizade@yahoo.com",
+      "age": 26,
+      "post": "author"
+    },
+    {
+      "id": 6502,
+      "name": "maryam sadeghi",
+      "username": "mary45",
+      "email": "sadeghian1378@gmail.com",
+      "age": 24,
+      "post": "user"
+    },
+    {
+      "id": 6503,
+      "name": "sara shahi",
+      "username": "delbar23",
+      "email": "sara_mohi89@hotmail.com",
+      "age": 19,
+      "post": "user"
+    }
+  ]
+}

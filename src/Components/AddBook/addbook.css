@@ -1,0 +1,81 @@
+.addbook-background {
+    margin: 0;
+    position: relative;
+    width: 100%;
+    height: 700px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 1%,
+    rgba(121, 9, 24, 1) 5%,
+    rgba(114, 20, 37, 1) 10%,
+    rgba(217, 136, 158, 1) 14%,
+    rgba(55, 41, 47, 1) 22%,
+    rgba(87, 66, 91, 1) 30%,
+    rgba(73, 89, 118, 1) 40%,
+    rgba(67, 98, 129, 1) 44%,
+    rgba(66, 92, 106, 1) 55%,
+    rgba(66, 106, 122, 1) 63%,
+    rgba(30, 159, 202, 1) 71%,
+    rgba(33, 86, 102, 1) 76%,
+    rgba(9, 192, 242, 1) 86%,
+    rgba(29, 149, 213, 1) 90%,
+    rgba(0, 212, 255, 1) 95%
+  );
+}
+.addbook-container {
+  width: 70%;
+  border: 1px solid black;
+  position: absolute;
+  left: 15%;
+  margin: auto;
+  border-radius: 4px;
+  margin-top: 15px;
+  background-color: rgb(197, 189, 189);
+}
+.addbook-container h2 {
+  text-align: center;
+}
+.addbook-container input {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+.addbook-container textarea {
+  margin-left: 45px;
+  width: 90%;
+  height: 150px;
+  resize: vertical;
+}
+.addbook-container label {
+  margin-left: 5px;
+}
+
+.custom-file-input::before {
+  display: inline-block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+.addbook-container button {
+  width: 90%;
+  margin: auto;
+  display: block;
+  background-color: #3ae557;
+  border-radius: 5px;
+  font-size: 18px;
+  height: 35px;
+}

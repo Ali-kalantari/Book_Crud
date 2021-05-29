@@ -1,0 +1,107 @@
+.navbar {
+  width: 100%;
+  height: 34px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(10, 10, 10, 1);
+  border: 0;
+  z-index: 1000;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 11px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-top: 8px;
+    letter-spacing: 3px;
+}
+.main-section{
+    width: 100%;
+    height: 600px;
+}
+ .img{
+    width: 100%;
+    height: 700px;
+    position: relative;
+}
+.img img{
+width: 100%;
+height: 700px;
+}
+.welcome{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    z-index: 1;
+    background-color: rgba(10, 10, 10, 0.4);
+    text-align: center;
+}
+.welcome h1{
+    color: white;
+    margin-top: 40px;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+#links{
+    width: 12%;
+    margin: auto;
+
+}
+.link{
+    text-decoration: none;
+    box-shadow: 0px 15px 14px -4px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	border:1px solid #4d9fd6;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:15px 39px;
+    margin-top: 8px;
+	text-shadow:-1px 1px 6px #3d768a;
+}
+.link:hover{
+    background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.dashboard{
+width: 60%;
+height: 250px;
+margin: auto;
+}
+.dashboard a{
+	font-size:25px;
+    color: white;
+    text-decoration: none;
+    width: 40%;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+}
+.dashboard #add{
+background-color: yellowgreen;
+}
+.dashboard #list{
+    background-color: violet;
+    margin-top: 10px;
+}
+.dashboard #logout{
+    background-color: tomato;
+    margin-top: 10px;
+    
+}
